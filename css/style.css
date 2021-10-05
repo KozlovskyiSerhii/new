@@ -1,0 +1,262 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.allcontent {
+  overflow: hidden;
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0px auto;
+}
+
+.content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+.boxhi {
+  background-color: #445162;
+  padding: 50px 0px;
+}
+
+.boxhi__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.boxhi__body {
+  color: #fff;
+  padding: 0px 30px 0px 0px;
+}
+
+.boxhi__title {
+  margin: 0px 0px 38px 0px;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+  font-size: 60px;
+}
+
+.boxhi__list li {
+  background: url("../img/icon/icon.png") 0 1px no-repeat;
+  font-size: 20px;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+  padding: 0px 0px 0px 36px;
+  margin: 0px 0px 15px 0px;
+  line-height: 22px;
+}
+
+.boxhi__list :last-child {
+  margin: 0px;
+}
+
+.footer {
+  background-color: #f5f5f5;
+}
+
+.footer__row {
+  height: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer__text {
+  font-size: 12px;
+  letter-spacing: 0.3px;
+  color: #445162;
+}
+
+.boxwhat__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 50px 0px;
+}
+
+.boxwhat__img {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 430px;
+          flex: 0 0 430px;
+}
+
+.boxwhat__img img {
+  max-width: 100%;
+}
+
+.boxwhat__body {
+  padding: 0px 0px 0px 38px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+.boxwhat__title {
+  margin: 0px 0px 33px 0px;
+}
+
+.boxwhat__text p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0px 0px 25px 0px;
+  color: #333333;
+}
+
+.title {
+  font-size: 30px;
+  color: #445161;
+  line-height: 36px;
+}
+
+.boxcolumn {
+  background-color: #f5f5f5;
+  padding: 50px 0px 20px 0px;
+}
+
+.boxcolumn__title {
+  text-align: center;
+  margin: 0px 0px 30px 0px;
+}
+
+.boxcolumn__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0px -8px;
+}
+
+.boxcolumn__columns {
+  padding: 0px 8px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+  margin: 0px 0px 30px 0px;
+}
+
+.item__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.item__img {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 200px;
+          flex: 0 0 200px;
+}
+
+.item__body {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1  auto;
+          flex: 1 1  auto;
+  padding: 0px 0px 0px 15px;
+}
+
+.item__title {
+  font-size: 24px;
+  color: #445161;
+  line-height: 30px;
+  margin: 0px 0px 13px 0px;
+}
+
+.item__text {
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+}
